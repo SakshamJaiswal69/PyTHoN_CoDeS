@@ -1,0 +1,125 @@
+#: Write a program to check a number given by user is even or odd.(using single line if else).
+'''
+a=int(input("enter a number :"))
+print("given number is an even number",a)if(a%2==0)else print("given no is an odd number")   
+'''
+# Write a program to take two different number and check which is greater.
+'''
+a=int(input("enter first number :"))
+b=int(input("enter second number :"))
+print(a,' is greater than', b)if(a>b)else print(b," is greater than",a)
+'''
+# Write a program to create two different list of same number
+#of element and print the sum of their corresponding elements.
+'''
+a=[]
+b=[]
+g=int(input("how many no you wanna put :"))
+for j in range(g):
+    e=int(input("enter first list numbers :"))
+    a.append(e)
+
+for j in range(g):
+    f=int(input("enter second list numbers :"))
+    b.append(f)
+
+d=[]
+for i in range(g):
+    c=(a[i]+b[i])
+    d.append(c)
+print(d)
+'''
+#: Write a program to create a list of cube of 'n' natural numbers.('n' is given by user).
+'''
+a=[]
+
+b=int(input("enter the last natural no. to get it's cube : "))
+for i in range(1,b+1):
+    a.append(i**3)
+print(a)
+''' 
+# : Write a program to find dates of the calendar .
+'''
+days = int(input("Please enter the no "))
+no_of_days=days%7
+# % =kyu ki ye remainder leta hai.
+if(no_of_days==1):
+    print("Monday")
+elif(no_of_days==2):
+    print('Tuesday')
+elif(no_of_days==3):
+    print('Wednesday')
+elif(no_of_days==4):
+    print('Thursday')
+elif(no_of_days==5):
+    print('Friday')
+elif(no_of_days==6):
+    print('Saturday')
+elif(no_of_days==0):
+    print('Sunday')
+elif(no_of_days==str):
+    print("Given value isn't in 'Numbers'.")
+else: 
+    print("Given value isn't in 'Numbers'.")
+'''
+#: Write a program to check that the number is palindrome or not.
+
+ab=int(input('enter a number'))
+b=ab
+c=0
+
+while (ab>0):
+    d=ab%10
+    c=c*10+d
+    ab=ab//10
+if(b==c):
+    print(b,'is a palindrome number')
+else:
+    print(b,'is not palindrome number')
+
+#: Write a program to check that the DATA is palindrome or not.
+"""
+a=(input("enter the no."))
+reverse=a[::-1]
+if(a == reverse):
+    print("Yes, it is an palindrome number")
+else:
+    print('no,it is not an palindrome number')
+   
+print(type(reverse
+           ))
+"""
+# Write a program to take a number between 1-12
+#and print the month name according to the month.
+'''
+month = int(input("please enter the no "))
+No_of_month=month%12
+# % =kyu ki ye remainder leta hai.
+if(No_of_month==1):
+    print("january")
+elif(No_of_month==3):
+    print('march')
+elif(No_of_month==4):
+    print('april')
+elif(No_of_month==5):
+    print('may')
+elif(No_of_month==6):
+    print('june')
+elif(No_of_month==7):
+    print('july')
+elif(No_of_month==8):
+    print('august')
+elif(No_of_month==9):
+    print('september')
+elif(No_of_month==10):
+    print('october')
+elif(No_of_month==11):
+    print('november')
+elif(No_of_month==0):
+    print('december')
+elif(No_of_month==2):
+    print('february')
+else: 
+    print("given value isn't in numbers.")
+
+'''

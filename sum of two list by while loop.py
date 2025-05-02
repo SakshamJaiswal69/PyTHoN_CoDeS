@@ -1,0 +1,9 @@
+a=[2,3,5,3,]
+b=[4,5,7,2,]
+c=[]
+k=0
+while(k<4):
+    sum=(a[k]+b[k])
+    c.append(sum)
+    k+=1
+print(c)
