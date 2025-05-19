@@ -1,0 +1,12 @@
+import numpy as np
+at=np.array([[[12,32],[32,56]],[[45,88],[43,55]],[[63,44],[23,54]],[[43,65],[64,89]],[[23,54],[54,44]],[[57,45],[53,57]]])
+# print(at.reshape(1,12))
+# print(at.reshape(3,4))
+# print(at.reshape(4,3))
+# print(at.reshape(2,3,2))
+# print(at.reshape(3,2,2))
+# print(at.reshape(2,2,3,1))
+# print(at.reshape(2,1,2,3))
+print(at.ndim)
+print(at.shape)
+print(at.reshape(2,1,4,3))
